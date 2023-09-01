@@ -1,13 +1,7 @@
-#!/usr/bin/env python
-# coding: utf-8
-
-# In[1]:
 
 
 import tensorflow as tf
 class myImputer(tf.keras.layers.experimental.preprocessing.PreprocessingLayer):
-    #When you use this syntax, you can pass any number of keyword arguments to the function, and they will be collected ...
-    # into a dictionary with the keyword as the key and the value as the corresponding value.
     def __init__(self, **kwargs):
         super().__init__( **kwargs)
     def build(self,batch_input_shape):

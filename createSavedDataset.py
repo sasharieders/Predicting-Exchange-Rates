@@ -1,12 +1,3 @@
-#!/usr/bin/env python
-# coding: utf-8
-
-# In[47]:
-
-
-#Sasha Rieders
-#Homework 1
-#I used chatGPT to help me write the code. I understand all of the code that is implemented below.
 import pandas
 import numpy as np
 import tensorflow as tf
